@@ -1,0 +1,32 @@
+.long-line {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    width: 1180px;
+    margin: 0 calc(50% - 590px);
+    padding: 0 20px;
+    align-content: space-between;
+    
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    width: 1180px;
+    margin: 0 calc(50% - 590px);
+    align-content: space-between;
+    gap:90px;
+}
+
+.column-description {
+    padding: 50px;
+}
+
+.column-description-small {
+    margin: 50px 0;
+    
+}

@@ -1,0 +1,68 @@
+.container .row {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    width: 1180px;
+    margin: 0 calc(50% - 590px);
+    padding: 0 20px;
+}
+.logo {
+    width: 50%;
+    margin-left: 100px;
+}
+.container > .row-short {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: url(../img/hero-image.png);
+    gap: 30px;
+    width: 1180px;
+    height: 500px;
+    margin: 0 calc(50% - 590px);
+    padding: 0 20px;
+    justify-content: space-around;
+}
+.row-short-small {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: space-between;
+   justify-content: space-between;
+   
+}
+.button {
+    display:inline-block;
+    font-family: inherit;
+    padding: 1em 2em;
+    font-size: 1rem;
+    line-height: 1em;
+    background-color: #000000;
+    color: #fff;
+    border: none;   
+    cursor: pointer;  
+    border-radius: 0.3em;
+    text-decoration: none; 
+    user-select: none;
+    text-align: center;
+}
+
+.button-two {
+    display:inline-block;
+    font-family: inherit;
+    padding: 1em 2em;
+    font-size: 1rem;
+    line-height: 1em;
+    background-color: #fff;
+    color: #000000;
+    border: none;   
+    cursor: pointer;  
+    border-radius: 0.3em;
+    text-decoration: none; 
+    user-select: none;
+    text-align: center;
+}
+
