@@ -16,7 +16,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    background-image: url(../img/hero-image.png);
+    /* background-image: url(./../img/hero-image.png); */
     gap: 30px;
     width: 1180px;
     height: 500px;
